@@ -2,7 +2,7 @@
 
 This repo is a work in progress collaboration between [Flavius Popan](https://flaviuspopan.com/) & [Bob Newell](https://www.bobnewell.net/) aimed at preserving Lotus Agenda's legacy.
 
-Bob currently maintains the internet's most comprehensive Agenda fan site at https://www.bobnewell.net/nucleus/bnewell.php?itemid=186 and Flavius is spearheading the effort to archive most of the resources on the page as well as other pages scattered across the internet.
+Bob currently maintains the internet's [most comprehensive Agenda fan site](https://www.bobnewell.net/nucleus/bnewell.php?itemid=186) and Flavius is spearheading the effort to archive most of the resources on the page as well as other pages scattered across the internet.
 
 **NOTICE: This repo DOES NOT contain, and will not allow the upload of the official installers, disk images, manuals, or any other copyrighted content.**
 
