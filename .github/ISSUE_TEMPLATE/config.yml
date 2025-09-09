@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: DMCA takedown (GitHub)
+    url: https://github.com/contact/dmca
+    about: Use GitHub’s DMCA portal if you prefer a non-public report.
+  - name: Report abuse or trademark (GitHub)
+    url: https://github.com/contact/report-abuse
+    about: Use GitHub’s abuse/trademark form for non-public reports.
+

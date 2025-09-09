@@ -1,0 +1,54 @@
+name: Takedown request
+description: Request removal or modification of specific material.
+title: "[Takedown] <short description>"
+labels: ["takedown", "legal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to report material you believe infringes your rights. Do not include sensitive or private data.
+  - type: input
+    id: path
+    attributes:
+      label: Path to material
+      description: Full path in repo and the commit hash or release tag.
+      placeholder: e.g., docs/foo.md @ 1a2b3c4
+    validations:
+      required: true
+  - type: dropdown
+    id: rights
+    attributes:
+      label: Rights asserted
+      options:
+        - Copyright
+        - Trademark
+        - Both
+    validations:
+      required: true
+  - type: textarea
+    id: ownership
+    attributes:
+      label: Ownership or authorization
+      description: Describe your rights and attach links or references that establish ownership or authorization.
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Explain why the use is not authorized and what action you seek.
+    validations:
+      required: true
+  - type: checkboxes
+    id: goodfaith
+    attributes:
+      label: Good-faith statement
+      options:
+        - label: I state in good faith that the reported material is not authorized by the rights holder, its agent, or the law.
+          required: true
+  - type: textarea
+    id: contact
+    attributes:
+      label: Contact (optional)
+      description: Optional alternative contact method if you want follow-up outside GitHub.
+
